@@ -1,4 +1,4 @@
-# Fundamentals of Programming⚙️
+# Fundamentals of Programming
 ### Source code for Semester-2 lab tasks 
 <br>
 
