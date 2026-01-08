@@ -10,8 +10,8 @@ Department = Department of Computer Science(DCS)
 void main()
 {
     int a,b,sum;
-    a = 20;
-    b = 30;
+    a = 10;
+    b = 20;
     sum = a + b;
     printf("%d\n", sum);
     printf("sum is %d\n", sum);
