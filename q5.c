@@ -18,4 +18,5 @@ int main()
     b = 8;
     c = 18;
     printf("%dx + %dy = %dc", a,b,c);
+    return 0;
 }
