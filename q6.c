@@ -33,4 +33,5 @@ int main()
     }
     return 0;
 }
-
+// in case a) normal division occurs as per the equation and corresponding values given.
+// whereas in case b) we see a division by zero error since both b and c were assigned 70 resulting a zero denominator in the given equation which in turn makes it a mathematically impossible operation.  
