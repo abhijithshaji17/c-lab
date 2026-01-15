@@ -19,17 +19,17 @@ int main()
 {
     int a,b,c;
     float x;
-    printf("Enter the value of a: ","%d\n", a);
+    printf("Enter the value of a: ");
     scanf("%d", &a);
-    printf("Enter the value of b: ","%d\n", b);
+    printf("Enter the value of b: ");
     scanf("%d", &b);
-    printf("Enter the value of c: ","%d\n", c);
+    printf("Enter the value of c: ");
     scanf("%d", &c);
     if ((b-c) == 0){
         printf("Error: Division by zero not allowed!\n");
     } else {
         x = (float)a/(b-c);
-        printf("x =%2.f\n", x);
+        printf("x = %2.f\n", x);
     }
     return 0;
 }
