@@ -29,7 +29,7 @@ int main()
         printf("Error: Division by zero not allowed!\n");
     } else {
         x = (float)a/(b-c);
-        printf("x = %2.f\n", x);
+        printf("x = %.2f\n", x);
     }
     return 0;
 }
