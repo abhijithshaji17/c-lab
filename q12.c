@@ -21,6 +21,6 @@ int main()
     printf("Enter the time taken for journey(s) = ");
     scanf("%lf",&t);
     s = (u*t) + (1.0/2.0)*a*pow(t,2);
-    printf("The distance traveled = %.2lf\n",s);
+    printf("The distance traveled(m) = %lf\n",s);
     return 0;
 }
