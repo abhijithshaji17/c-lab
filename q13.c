@@ -11,4 +11,21 @@ the value of an item is given by:-
 Write a program to determine the salvage value of an item when
 the purchase price, years of service, and the annual depreciation
 are given.
+=> salvage value = purchase price - (depreciation*years of service)
 */
+
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+        double dep,pprice,salvval,yrsofser;
+        printf("Enter the purchase price(in $) = ");
+        scanf("%lf",&pprice);
+        printf("Enter the depreciation = ");
+        scanf("%lf",&dep);
+        printf("Enter the years of service(in yrs) = ");
+        scanf("%lf",&yrsofser);
+        salvval = pprice - (dep*yrsofser);
+        printf("salvage value = %lf\n",salvval);
+        return 0;
+}
