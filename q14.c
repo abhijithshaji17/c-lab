@@ -31,8 +31,8 @@ int main()
     printf("Enter the holding costs per unit time = ");
     scanf("%lf",&hcput);
     eoq = sqrt((2*demrate*setcost)/hcpiput);
-    tbo = sqrt((2*setcost)/demrate*hcput);
-    printf("eoq = %lf\n");
-    printf("tbo = %lf\n");
+    tbo = sqrt((2*setcost)/(demrate*hcput));
+    printf("eoq = %lf\n",eoq);
+    printf("tbo = %lf\n",tbo);
     return 0;
 }
