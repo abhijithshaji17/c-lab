@@ -7,8 +7,8 @@ Department = Department of Computer Science(DCS)
 /*
 Write a C program to determine the acceleration due to gravity 'g', given by the formula:-
         T = 2*pi*sqrt(l/g)
-          => T^2 = 4*pi*(l/g)
-          => g = 4*pi*(l/T^2)
+          => T^2 = 4*pi^2*(l/g)
+          => g = 4*pi^2*(l/T^2)
 Use the concept of symbolic constants in your program.
 */ 
 
@@ -22,7 +22,7 @@ int main()
     scanf("%lf",&T);
     printf("Enter the length of string of simple pendulum(m) = ");
     scanf("%lf",&l);
-    g = 4*pi*(l/pow(T,2));
+    g = 4*pow(pi,2)*(l/pow(T,2));
     printf("The value of g(m/s^2) = %lf\n",g);
     return 0;
 }
