@@ -15,7 +15,6 @@ are given.
 */
 
 #include<stdio.h>
-#include<math.h>
 int main()
 {
         double dep,pprice,salvval,yrsofser;
