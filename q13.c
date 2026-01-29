@@ -23,7 +23,7 @@ int main()
         printf("Enter the depreciation = ");
         scanf("%lf",&dep);
         printf("Enter the years of service(in yrs) = ");
-        scanf("%lf",&yrsofser);
+        scanf("%lf",&yrsofser)
         salvval = pprice - (dep*yrsofser);
         printf("salvage value = %lf\n",salvval);
         return 0;
