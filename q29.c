@@ -43,3 +43,22 @@ Write a C program to print the following pattern using the 3 type of loops(separ
 //     }
 //     return 0;
 // }
+
+// via do while loop 
+#include<stdio.h>
+int main()
+{
+    int i = 1, j;
+    do{
+        j = 1;
+        do{
+            printf("%d ", i);
+            j++;
+        }
+        while(j<=i);
+        printf("\n");
+        i++;
+    }
+    while(i<=5);
+    return 0;
+}
