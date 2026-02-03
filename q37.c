@@ -16,3 +16,4 @@ Given a list of marks ranging from 0 to 100, write a program to compute and prin
 (h) in the range 0 to 40. The program should use a minimum number of if statements.
 */
 
+// **DOUBT**
