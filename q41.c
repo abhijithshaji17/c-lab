@@ -4,7 +4,7 @@ Roll No. = 25020144
 Department = Department of Computer Science(DCS)
 */
 
-/* Break &*/
+/* Break & Continue*/
 
 // #include<stdio.h>
 // int main()
