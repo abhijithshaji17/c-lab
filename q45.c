@@ -6,41 +6,43 @@ Department = Department of Computer Science(DCS)
 
 /*Calculator using Switch-case*/
 
-#include <stdio.h>
-int main() {
-    char operator;
-    double num1, num2, result;
-
-    printf("Enter an operator (+, -, *, /): ");
-    scanf(" %c", &operator);
-
-    printf("Enter two numbers: ");
-    scanf("%lf %lf", &num1, &num2);
-
-    switch(operator){
-        case '+':
-            result = num1 + num2;
-            printf("%.2lf + %.2lf = %.2lf\n", num1, num2, result);
+#include<stdio.h>
+int main()
+{
+    int op;
+    double n1,n2,ans;
+    printf("----Menu Driven Calculator----\n");
+    printf("Enter the first number:\n");
+    scanf("%lf",&n1);
+    printf("Enter the second number:\n");
+    scanf("%lf",&n2);
+    printf("Select the desired operation below:\n");
+    printf("1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n");
+    scanf("%d",&op);
+    switch(op){
+        case 1: 
+            ans=n1+n2;
+            printf("Sum = %lf\n",ans);
             break;
-        case '-':
-            result = num1 - num2;
-            printf("%.2lf - %.2lf = %.2lf\n", num1, num2, result);
+        case 2: 
+            ans=n1-n2;
+            printf("Difference = %lf\n",ans);
             break;
-        case '*':
-            result = num1 * num2;
-            printf("%.2lf * %.2lf = %.2lf\n", num1, num2, result);
+        case 3: 
+            ans=n1*n2;
+            printf("Product = %.2lf\n",ans);
             break;
-        case '/':
-            // Checking for division by zero
-            if (num2 != 0) {
-                result = num1 / num2;
-                printf("%.2lf / %.2lf = %.2lf\n", num1, num2, result);
-            } else {
-                printf("Error! Division by zero is not allowed.\n");
-            }
+        case 4:
+        if(n2!=0){
+            ans=n1/n2;
+            printf("Quotient = %.2lf\n",ans);
+        }
+        else{
+            printf("Error: Division by zero not possible!");
+        }
             break;
         default:
-            printf("Error! Invalid operator.\n");
+            printf("Invalid choice.");
     }
     return 0;
 }
