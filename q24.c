@@ -12,7 +12,7 @@ Write a C program to display the colors of the rainbow.
 #include<stdio.h>
 int main()
 {
-    char ltr,color;
+    char ltr;
     printf("Enter a letter of your choice from 'VIBGYOR': ");
     scanf("%c",&ltr);
     printf("letter is %c\n",ltr);
