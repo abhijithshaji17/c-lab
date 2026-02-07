@@ -19,9 +19,6 @@ int main()
     if(ltr == 'v' || ltr == 'V'){
         printf("Color is Violet");
     }
-    else if(ltr == 'v' || ltr == 'V'){
-        printf("Color is Violet");
-    }
     else if(ltr == 'i' || ltr == 'I'){
         printf("Color is Indigo");
     }
